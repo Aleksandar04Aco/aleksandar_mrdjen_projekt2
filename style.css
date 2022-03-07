@@ -1,0 +1,77 @@
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+body {
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+.click-count-text {
+  font-size: 60px;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.541);
+}
+
+.btn {
+  border: 5cm;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.grandma{
+  border: 1px black solid;
+  padding: 2ch;
+  margin: 1ch;
+}
+
+.farm{
+  border: 1px black solid;
+  padding: 2ch;margin: 1ch;
+}
+
+.mine{
+  border: 1px black solid;
+  padding: 2ch;
+  margin: 1ch;
+}
+
+.factory{
+  border: 1px black solid;
+  padding: 2ch;
+  margin: 1ch;
+}
+
+.bank{
+  border: 1px black solid;
+  padding: 2ch;
+  margin: 1ch;
+}
+
+.ads{
+  border: 1px black solid;
+  padding: 2ch;
+  margin: 1ch;
+}
+
+
+
+
+.upgrade{
+  display: flex;
+  position: absolute;
+  top:30%;
+  left: 7.5%;
+flex-direction: column;
+}
