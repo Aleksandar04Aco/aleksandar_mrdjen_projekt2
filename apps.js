@@ -130,3 +130,7 @@ function adsBuy(){
   adsPrice.innerHTML = adsCost
   }
 }
+
+function Mrbeastscam() {
+  alert("WARNING you lost now 4 000 000 Dollars from your bank acount!!");
+}

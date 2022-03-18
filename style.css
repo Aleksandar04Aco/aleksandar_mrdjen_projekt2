@@ -1,13 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 button {
   border: 0;
   background-color: transparent;
 }
 
-.centered {
+article {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
+}
+
+.Container {
+  display: flex;
 }
 
 body {
@@ -30,48 +37,64 @@ body {
   display: inline-block;
 }
 
-.grandma{
+.grandma {
   border: 1px black solid;
   padding: 2ch;
   margin: 1ch;
 }
 
-.farm{
-  border: 1px black solid;
-  padding: 2ch;margin: 1ch;
-}
-
-.mine{
+.farm {
   border: 1px black solid;
   padding: 2ch;
   margin: 1ch;
 }
 
-.factory{
+.mine {
   border: 1px black solid;
   padding: 2ch;
   margin: 1ch;
 }
 
-.bank{
+.factory {
   border: 1px black solid;
   padding: 2ch;
   margin: 1ch;
 }
 
-.ads{
+.bank {
   border: 1px black solid;
   padding: 2ch;
   margin: 1ch;
 }
 
+.ads {
+  border: 1px black solid;
+  padding: 2ch;
+  margin: 1ch;
+}
 
-
-
-.upgrade{
+.upgrade {
   display: flex;
-  position: absolute;
-  top:30%;
-  left: 7.5%;
-flex-direction: column;
+  flex-direction: column;
+  width: 30%;
+  justify-content: center;
+}
+
+.upgrade button {
+  width: 8em;
+}
+
+.flexy {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.spaced {
+  margin-top: 2em;
+}
+
+
+
+.flexy img {
+  width: 100%;
 }
